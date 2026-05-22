@@ -1,0 +1,12 @@
+[Unit]
+Description=Initialize ALC298 codec
+After=sound.target
+Wants=sound.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/alc298-init
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
