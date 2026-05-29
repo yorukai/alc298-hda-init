@@ -1,4 +1,4 @@
-# alc298-init
+# alc298-hda-init
 
 Initialize the Realtek ALC298 codec using `hda-verb`.
 
@@ -7,15 +7,15 @@ Originally made for the Razer Blade 16 - RZ09-0510 (2024), but should work on ot
 ## Install
 
 ```bash
-git clone https://github.com/yorukai/alc298-init.git
-cd alc298-init
+git clone https://github.com/yorukai/alc298-hda-init.git
+cd alc298-hda-init
 makepkg -si
 ```
 
 Enable the service:
 
 ```bash
-sudo systemctl enable --now alc298-init.service
+sudo systemctl enable --now alc298-hda-init.service
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ sudo systemctl enable --now alc298-init.service
 Run manually:
 
 ```bash
-sudo alc298-init
+sudo alc298-hda-init
 ```
 
 ## Notes
