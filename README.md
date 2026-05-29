@@ -2,7 +2,7 @@
 
 Initialize the Realtek ALC298 codec using `hda-verb`.
 
-Originally made for the Razer Blade 16 (2024), but should work on other Razer Blade models using the ALC298 codec.
+Originally made for the Razer Blade 16 - RZ09-0510 (2024), but should work on other Razer Blade models using the ALC298 codec.
 
 ## Install
 
